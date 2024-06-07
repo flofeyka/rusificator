@@ -6,7 +6,7 @@ export default function Connection() {
     return <div>
         <title>Связь | Rusificator</title>
         <div
-            className={"h-[150px] w-full bg-[#333] text-white font-bold flex justify-center items-center text-6xl mb-5"}>
+            className={"h-[150px] w-full bg-[#333] text-white font-bold flex justify-center items-center text-center text-6xl mb-5"}>
             <div>Наши контакты</div>
         </div>
         <div className={"flex flex-col items-center w-full h-[300px] justify-center"}>
