@@ -8,7 +8,7 @@ import Connection from "./components/Connection";
 import TransitionWrapper from "./components/TransitionWrapper";
 
 function App() {
-    return <div className={"md:w-[96vw] sm:w-[100vw] block mx-auto opacity-0 transition-[2s]"}>
+    return <div className={"md:w-[96vw] sm:w-[100vw] block mx-auto opacity-0 transition-[2s] md:overflow-hidden"}>
         <Header/>
         <TransitionWrapper>
             <Route path="/" element={<Main/>}/>

@@ -9,7 +9,7 @@ export default function Connection() {
             className={"h-[150px] w-full bg-[#333] text-white font-bold flex justify-center items-center text-center text-6xl mb-5"}>
             <div>Наши контакты</div>
         </div>
-        <div className={"flex flex-col items-center w-full h-[300px] justify-center"}>
+        <div className={"flex flex-col items-center w-full h-[300px] justify-center md:h-[500px]"}>
             <div className={"flex mb-5"}>
                 <img alt={"whatsapp"} src={whatsapp} height={"70px"} width={"70px"}/>
                 <img alt={"telegram"} src={telegram} height={"70px"} width={"70px"}/>

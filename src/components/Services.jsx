@@ -6,9 +6,9 @@ export default function Services() {
         </div>
         <div className={"flex justify-center sm:flex-col"}>
             <div
-                className={"bg-[url('./assets/Main/bg.jpg')] bg-contain md:mr-5 sm:mb-5 bg-no-repeat bg-cover flex flex-col justify-between p-5 py-10 h-[55vh] sm:h-[40vh] min-w-[45vw] text-white text-center"}>
-                <div className={"font-extrabold text-3xl"}>Zeekr</div>
-                <div className={"mb-5 sm:mb-2 text-xl"}>
+                className={"bg-[url('./assets/Main/bg.jpg')] bg-contain md:mr-5 lg:mr-5 sm:mb-5 bg-no-repeat bg-cover flex flex-col justify-between p-5 py-10 h-[55vh] sm:h-[40vh] min-w-[45vw] text-white text-center"}>
+                <div className={"font-extrabold text-4xl"}>Zeekr</div>
+                <div className={"mb-5 sm:mb-2 text-3xl"}>
                     <div className={"mb-2"}>Полная русификация</div>
                     <div className={"mb-2"}>Zeekr (001, 007, X) +</div>
                     <div className={"mb-2"}>приложения +</div>
@@ -16,12 +16,12 @@ export default function Services() {
                 </div>
 
 
-                <div className={"text-xl italic"}>3950 BYN</div>
+                <div className={"text-3xl italic"}>3950 BYN</div>
             </div>
             <div
                 className={"bg-[url('./assets/Main/bg.jpg')] bg-contain bg-no-repeat bg-cover flex flex-col justify-between p-5 py-10 h-[55vh] sm:h-[40vh] min-w-[45vw] text-white text-center"}>
-                <div className={"font-extrabold text-3xl"}>LiXiang</div>
-                <div className={"mb-5 sm:mb-2 text-xl"}>
+                <div className={"font-extrabold text-4xl"}>LiXiang</div>
+                <div className={"mb-5 sm:mb-2 text-3xl"}>
                     <div className={"mb-2"}>
                         Полная русификация
                     </div>
@@ -31,7 +31,7 @@ export default function Services() {
                 </div>
 
 
-                <div className={"text-xl italic"}>3950 BYN</div>
+                <div className={"text-3xl italic"}>3950 BYN</div>
             </div>
         </div>
     </div>
