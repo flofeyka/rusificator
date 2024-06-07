@@ -45,9 +45,9 @@ export default function Main() {
         <div className={"mt-12"}>
             <Services/>
         </div>
-        <div className={"flex sm:flex-col items-center justify-center sm:my-5"}>
-            <motion.img initial={{left: -100, opacity: 0}} animate={{left: 0, opacity: 1}} alt={"Logo"} className={"min-h-[40px] max-h-[80px] sm:h-[50px] md:mr-10"} src={Zeekr}/>
-            <motion.img alt={"Logo"} className={"min-h-[40px] sm:h-[100px] max-h-[150px] "} src={Lixiang}/>
+        <div className={"flex sm:flex-col w-[65vw] sm:w-screen sm:justify-center mx-auto items-center md:justify-between sm:my-5"}>
+            <motion.img alt={"Logo"} className={"min-h-[40px] max-h-[80px] sm:h-[50px] md:mr-10"} src={Zeekr}/>
+            <motion.img alt={"Logo"} className={"min-h-[40px] md:mr-10 sm:h-[100px] max-h-[150px] "} src={Lixiang}/>
         </div>
 
     </main>
