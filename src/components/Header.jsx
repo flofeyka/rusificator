@@ -14,7 +14,7 @@ export default function Header() {
             {openBar && <Sidebar setOpenBar={(openBar) => setOpenBar(openBar)}/>}
         </div>
 
-        <div className={"flex justify-center w-full font-semibold text-xl"}>
+        <div className={"flex md:mr-10 justify-center w-full font-semibold text-xl"}>
             <div className={"flex justify-between sm:hidden w-[35vw] sm:w-full md:text-3xl"}>
                 <Link to={"/"} className={"ml-5 focus:text-gray-400 hover:text-gray-400 active:text-gray-400"}
                       autoFocus>Главная</Link>
