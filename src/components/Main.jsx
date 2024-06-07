@@ -25,17 +25,17 @@ export default function Main() {
             </video>
             <motion.div initial={{left: -100, opacity: 0}} animate={{fillOpacity: "revert-layer", right: -100, left:0, opacity: 1}}
                 className={"absolute -mt-[125px] sm:-mt-[360px] flex w-[95vw] sm:items-center sm:w-[100vw] sm:text-2xl justify-center font-bold sm:flex-col"}>
-                <motion.div transition={{type: "string", delay: 1}} initial={{width: 0, opacity: 0}} animate={{width: 250, opacity: 100}}
+                <motion.div transition={{type: "string", delay: 1}} initial={{width: 0, opacity: 0}} animate={{width: 260, opacity: 100}}
                     className={"bg-white h-[125px] sm:h-[100px] sm:w-[75vw] w-[200px] sm:mb-3 flex flex-col justify-center items-center"}>
                     <img alt={"Icon"} className={"mb-3"} src={key} height={"45px"} width={"45px"}/>
                     <div>Полная русификация</div>
                 </motion.div>
-                <motion.div transition={{type: "string",delay: 1}} initial={{width: 0, opacity: 0}} animate={{width: 250, opacity: 100}}
+                <motion.div transition={{type: "string",delay: 1}} initial={{width: 0, opacity: 0}} animate={{width: 260, opacity: 100}}
                     className={"bg-[#EDEDED] h-[125px] sm:h-[100px] sm:w-[75vw] w-[200px] sm:mb-3 flex flex-col justify-center items-center"}>
                     <img alt={"Icon"} className={"mb-3"} src={star} height={"45px"} width={"45px"}/>
                     <div>Гарантия качества</div>
                 </motion.div>
-                <motion.div transition={{type: "just",delay: 1}} initial={{width: 0, opacity: 0}} animate={{width: 250, opacity: 100}}
+                <motion.div transition={{type: "just",delay: 1}} initial={{width: 0, opacity: 0}} animate={{width: 260, opacity: 100}}
                     className={"bg-[#D6D6D6] h-[125px] sm:h-[100px] sm:w-[75vw] w-[200px] sm:mb-3 flex flex-col justify-center items-center"}>
                     <img alt={"Icon"} className={"mb-3"} src={checkmark} height={"45px"} width={"45px"}/>
                     <div>Самые низкие цены</div>
