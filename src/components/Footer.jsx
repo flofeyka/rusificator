@@ -9,9 +9,11 @@ export default function Footer() {
                     <div className={"text-white text-center text-3xl sm:text-4xl font-bold mb-4"}>Записаться на
                         русификацию
                     </div>
-                    <button
-                        className={"bg-white p-2 px-4 text-xs w-[125px] sm:h-[7vh] sm:w-[50vw] sm:text-xl rounded-3xl hover:text-orange-400"}>Записаться
-                    </button>
+                    <Link to={"/connection"}>
+                        <button
+                            className={"bg-white p-2 px-4 text-xs w-[125px] sm:h-[7vh] sm:w-[50vw] sm:text-xl rounded-3xl hover:text-orange-400"}>Записаться
+                        </button>
+                    </Link>
                 </div>}/>
             <Route path={"/Services"} element={
                 <div
