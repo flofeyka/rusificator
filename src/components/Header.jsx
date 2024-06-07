@@ -7,7 +7,9 @@ export default function Header() {
     const [openBar, setOpenBar] = useState(false);
 
     return <motion.div initial={{opacity: 0}} animate={{opacity: 1}} exit={{opacity: 100}} className="h-[12.5vh] flex items-center sm:w-[100vw] sm:justify-center">
-        <img alt={"Logo"} className={"h-[12.5vh] mx-auto md:ml-18 absolute top-0 md:left-[250px]"} src={Logo}/>
+        <motion.div className={"flex"} transition={{delay: 1}} initial={{marginLeft: -100, opacity: 0}} animate={{marginLeft: 100, opacity: 100}}>
+            <motion.img transition={{delay: 1}} initial={{marginLeft: -100, opacity: 0}} animate={{marginLeft: 0, opacity: 100}} alt={"Logo"} className={"h-[12.5vh] mx-auto md:ml-18 absolute top-0 md:left-[250px]"} src={Logo}/>
+        </motion.div>
         <div className={"absolute left-0 top-0"}>
             {openBar && <Sidebar setOpenBar={(openBar) => setOpenBar(openBar)}/>}
         </div>
