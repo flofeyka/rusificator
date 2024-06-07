@@ -15,7 +15,7 @@ export default function Connection() {
                 <img alt={"telegram"} src={telegram} height={"70px"} width={"70px"}/>
                 <img alt={"viber"} src={viber} height={"70px"} width={"70px"}/>
             </div>
-            <div className={"font-bold text-2xl mt-2 mb-5 text-center"}>
+            <div className={"font-bold text-2xl mt-2 mb-5 md:text-4xl text-center"}>
                 <div>+375291234567</div>
                 <div>rusificator@gmail.com</div>
             </div>

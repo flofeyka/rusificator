@@ -2,7 +2,7 @@ export default function Services() {
     return <div className={"w-[95%] mx-auto mb-10"}>
         <title>Услуги | Rusificator</title>
         <div
-            className={"text-white min-h-[150px] my-5 bg-[#333] flex items-center justify-center font-bold text-2xl px-5"}>УСЛУГИ
+            className={"text-white min-h-[150px] my-5 bg-[#333] flex items-center justify-center font-bold text-2xl px-5 lg:text-4xl"}>УСЛУГИ
         </div>
         <div className={"flex justify-center sm:flex-col"}>
             <div
