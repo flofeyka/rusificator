@@ -21,7 +21,7 @@ export default function Main() {
             </div>
             <video className={"object-cover relative w-full h-[500px] md:h-[450px] sm:h-[650px] sm:w-[100vw] "}
                    src={Banner}
-                   loop={true} muted={true} autoPlay={true}>
+                   loop={true} muted={true} playsInline={true} autoPlay={true}>
                 <source type="video/mp4" src={Banner}/>
             </video>
             <motion.div initial={{left: -100, opacity: 0}}
